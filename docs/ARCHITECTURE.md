@@ -50,3 +50,6 @@ Liveness and readiness endpoints probe database connectivity and available serve
 
 ## 17. Testing Suites & Isolation
 Test suites separate unit mock tests from integration tests utilizing ephemeral test databases.
+
+## 18. Prometheus Metrics & Performance Monitoring
+Endpoints track request latency histograms and error distributions for real-time observability.

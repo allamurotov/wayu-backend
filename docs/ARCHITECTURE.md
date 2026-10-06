@@ -38,3 +38,6 @@ Uploaded binaries are checked against MIME signatures and file size limits prior
 
 ## 13. Security Headers & CORS Enforcement
 Applications are hardened with Helmet HTTP security headers and restricted origin whitelists.
+
+## 14. Real-time WebSocket Gateway
+Socket.io gateways authenticate handshake tokens and manage bidirectional room subscriptions.

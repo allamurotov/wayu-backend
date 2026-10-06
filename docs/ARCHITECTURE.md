@@ -20,3 +20,6 @@ Interceptors transform outgoing responses into standardized envelopes and log re
 
 ## 7. Database Connection Pooling & Migrations
 Database layers enforce connection pooling limits, query performance indices, and explicit migration files.
+
+## 8. Redis Distributed Caching Layer
+High-throughput read queries leverage in-memory Redis caching with automated TTL invalidation hooks.

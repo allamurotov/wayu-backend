@@ -2,3 +2,6 @@
 
 ## 1. Modular Architecture & Dependency Injection
 The service is structured as domain-driven NestJS modules with isolated dependency boundaries.
+
+## 2. Request Validation & DTO Transformation
+Incoming HTTP requests pass through global validation pipes using class-validator and class-transformer.

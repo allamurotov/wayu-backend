@@ -29,3 +29,6 @@ Rate limiters dynamically monitor IP request frequencies to shield endpoints fro
 
 ## 10. Swagger OpenAPI Documentation
 Controllers include comprehensive Swagger decorators documenting parameter contracts and schemas.
+
+## 11. BullMQ Background Job Processing
+Heavy asynchronous jobs like email deliveries and media exports are dispatched to isolated workers.

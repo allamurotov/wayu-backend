@@ -41,3 +41,6 @@ Applications are hardened with Helmet HTTP security headers and restricted origi
 
 ## 14. Real-time WebSocket Gateway
 Socket.io gateways authenticate handshake tokens and manage bidirectional room subscriptions.
+
+## 15. Environment Configuration Validation
+Configuration modules validate process environment variables against structured schemas on startup.

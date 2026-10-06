@@ -26,3 +26,6 @@ High-throughput read queries leverage in-memory Redis caching with automated TTL
 
 ## 9. Throttling & DDoS Protection
 Rate limiters dynamically monitor IP request frequencies to shield endpoints from abusive traffic.
+
+## 10. Swagger OpenAPI Documentation
+Controllers include comprehensive Swagger decorators documenting parameter contracts and schemas.

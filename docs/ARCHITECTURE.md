@@ -11,3 +11,6 @@ Authentication relies on Passport JWT strategies with cryptographically signed t
 
 ## 4. Role-Based Access Control (RBAC) Guards
 Endpoint access is secured using custom `@Roles()` decorators evaluated by execution context guards.
+
+## 5. Global Exception Filter & Error Payload
+All unhandled exceptions are caught by global filters to ensure uniform JSON error schemas across APIs.

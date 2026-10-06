@@ -35,3 +35,6 @@ Heavy asynchronous jobs like email deliveries and media exports are dispatched t
 
 ## 12. File Storage Pipeline & Multipart Validation
 Uploaded binaries are checked against MIME signatures and file size limits prior to persistent storage.
+
+## 13. Security Headers & CORS Enforcement
+Applications are hardened with Helmet HTTP security headers and restricted origin whitelists.

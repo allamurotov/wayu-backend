@@ -44,3 +44,6 @@ Socket.io gateways authenticate handshake tokens and manage bidirectional room s
 
 ## 15. Environment Configuration Validation
 Configuration modules validate process environment variables against structured schemas on startup.
+
+## 16. Terminus Health Check Probes
+Liveness and readiness endpoints probe database connectivity and available server memory.

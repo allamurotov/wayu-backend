@@ -17,3 +17,6 @@ All unhandled exceptions are caught by global filters to ensure uniform JSON err
 
 ## 6. Response Serialization & Execution Interceptors
 Interceptors transform outgoing responses into standardized envelopes and log request durations.
+
+## 7. Database Connection Pooling & Migrations
+Database layers enforce connection pooling limits, query performance indices, and explicit migration files.

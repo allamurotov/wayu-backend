@@ -32,3 +32,6 @@ Controllers include comprehensive Swagger decorators documenting parameter contr
 
 ## 11. BullMQ Background Job Processing
 Heavy asynchronous jobs like email deliveries and media exports are dispatched to isolated workers.
+
+## 12. File Storage Pipeline & Multipart Validation
+Uploaded binaries are checked against MIME signatures and file size limits prior to persistent storage.

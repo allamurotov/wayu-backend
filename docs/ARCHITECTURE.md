@@ -8,3 +8,6 @@ Incoming HTTP requests pass through global validation pipes using class-validato
 
 ## 3. Authentication & JWT Token Lifecycle
 Authentication relies on Passport JWT strategies with cryptographically signed tokens and rotating refresh tokens.
+
+## 4. Role-Based Access Control (RBAC) Guards
+Endpoint access is secured using custom `@Roles()` decorators evaluated by execution context guards.

@@ -23,3 +23,6 @@ Database layers enforce connection pooling limits, query performance indices, an
 
 ## 8. Redis Distributed Caching Layer
 High-throughput read queries leverage in-memory Redis caching with automated TTL invalidation hooks.
+
+## 9. Throttling & DDoS Protection
+Rate limiters dynamically monitor IP request frequencies to shield endpoints from abusive traffic.

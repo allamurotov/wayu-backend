@@ -14,3 +14,6 @@ Endpoint access is secured using custom `@Roles()` decorators evaluated by execu
 
 ## 5. Global Exception Filter & Error Payload
 All unhandled exceptions are caught by global filters to ensure uniform JSON error schemas across APIs.
+
+## 6. Response Serialization & Execution Interceptors
+Interceptors transform outgoing responses into standardized envelopes and log request durations.

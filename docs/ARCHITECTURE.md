@@ -47,3 +47,6 @@ Configuration modules validate process environment variables against structured 
 
 ## 16. Terminus Health Check Probes
 Liveness and readiness endpoints probe database connectivity and available server memory.
+
+## 17. Testing Suites & Isolation
+Test suites separate unit mock tests from integration tests utilizing ephemeral test databases.
